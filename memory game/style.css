@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+    background-color:mediumseagreen;
+  }
+ td > img {
+    width: 120px;
+    height: 140px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    
+  }
+  table {
+    margin: auto;
+  }
+  td {
+    margin: 0px;
+    align-items: center;
+    cursor: pointer;
+  }
+  div{
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: cursive;
+  }
+  h1{
+    text-decoration: underline;
+    font-family: fantasy;
+  }
+  img:active{
+    transform: rotateY(180deg);
+  }
