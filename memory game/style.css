@@ -9,6 +9,7 @@ body{
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform .5s;
+    cursor: pointer;
   }
   table {
     margin: auto;
@@ -16,7 +17,6 @@ body{
   td {
     margin: 0px;
     align-items: center;
-    cursor: pointer;
   }
   div{
     font-weight: bolder;
